@@ -1,0 +1,647 @@
+@media only screen and (max-width:420px){
+    .title-bar{ flex-direction:column;font-size:10px;height:18vh;width:105%;}
+    .main{ top:20%;width:100%; height:190%; overflow:hidden; }
+    .logo button{font-size:23px;position:absolute;left:38%;padding: 6px;}
+    .CompName{padding:5px;font-size:17px;width:45%;}
+    .start_button{flex-direction:row;height:9vh;margin-left:5px;margin-right:20px;}
+    .start_button button{font-size:12px;}
+   .FirstComp{flex-direction:column;height:100%;}
+   .FirstCompimg{ width:90%; height:30%; margin-left: 10px; margin-top: 15px;  }
+   .C1T1{padding: 5px; width: 80%; margin-left: 25px; }
+    .C1T1 p{font-size:20px;}
+   .C1T2{padding: 5px; width: 80%; margin-left: 25px; margin-top: 15px;}
+   .C1T2 p{font-size:20px;}
+   
+   .SecondComp{ flex-direction:column; top:8%;}
+   .Block{ width:60%; margin-left:60px; height:50%;}
+   .Block2{width:60%;margin-left:60px;height:50%;}
+   .NewComp{top:10%; height:70%;}
+   .FERWD{ width:90%; height:70%; margin-left:15px;}
+   .img{width:100%; height:40%;}
+   .Animate{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate img{width:90%; height:40%;margin-left:15px; top:6%}
+   .C1{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   .arrows img{width:0%; height:0%;}
+   .Animate2{ width: 100%; height: 70%; flex-direction: column;justify-content: space-around;}
+   .Animate2 img{width: 90%;height: 40%;top: 6%;margin-left:15px;}
+   .C2{font-size: 15px;font-weight: 5px;padding: 10px;width: 80%;margin-left: 6%;}
+   .FEFWD{ width:90%; height:70%; margin-left:15px;}
+   .Animate3{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate3 img{width:90%; height:40%;margin-left:15px; top:6%}
+   .C3{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   .Animate4{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate4 img{width:90%; height:35%;margin-left:15px; top:6%}
+   .C4{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   .arrows1 img{ width: 0%; height: 0%;}
+   .Animate5{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate5 img{width:90%; height:35%;margin-left:15px; top:6%}
+   .C5{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   .Animate6{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate6 img{width:90%; height:35%;margin-left:15px; top:6%}
+   .C6{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   .Animate7{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
+   .Animate7 img{width:90%; height:35%;margin-left:15px; top:6%}
+   .C7{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;}
+   
+
+}
+
+@media only screen and (min-width:421px){
+    .title-bar{width: 100%; height: 12vh; flex-direction: row;}
+    .main{ width: 100%;height: 85%;top: 15%;overflow: hidden;}
+    .logo button{font-size: 35px;font-weight: 10px; margin-right: 20px;margin-top: 15px;padding: 12px;}
+    .CompName{ padding: 5px;}
+    .start_button{flex-direction: row;}
+    .start_button button{font-size: 15px;}
+    .FirstComp{flex-direction: row;justify-content: space-around;}
+    .FirstCompimg{ width:40%; margin-top: 3%;margin-right: 5%;}
+    .C1T1{ padding: 30px; font-size: 25px;font-weight: 15px; width: 80%; margin-left: 3%;}
+    .C1T2{ padding: 30px; font-size: 25px;font-weight: 15px; width: 80%; margin-left: 3%;}
+    .SecondComp{flex-direction:row;top: 22%;height: 70%;}
+   .Block{width: 18%; height: 80%;}
+   .Block2{width: 18%; height: 80%;}
+   .NewComp{top: 22%; height: 70%;}
+   .FERWD{ width: 50%; height: 90%;}
+   .img{width: 90%; height: 80%;}
+   .Animate{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+   .Animate img{ width: 60%;height: 80%;top: 15%;}
+   .C1{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+   .arrows{ width: 100%; height: 100%; position: absolute;}
+   .arrows img{ width: 5%; height: 10%;}
+    .Animate2{ width: 100%; height: 110%; flex-direction: row;justify-content: space-around;}
+    .Animate2 img{width: 60%;height: 80%;top: 15%;}
+    .C2{font-size: 22px;font-weight: 15px;padding: 10px;width: 90%;margin-left: 1%;}
+    .FEFWD{width: 50%; height: 90%;}
+    .Animate3{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+    .Animate3 img{width: 60%;height: 80%;top: 15%;}
+    .C3{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+    .Animate4{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+    .Animate4 img{width: 60%;height: 80%;top: 15%;}
+    .C4{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+    .arrows1 img{ width: 3%; height: 6%;}
+    .Animate5{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+    .Animate5 img{width: 60%;height: 80%;top: 15%;}
+    .C5{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+    .Animate6{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+    .Animate6 img{width: 60%;height: 80%;top: 15%;}
+    .C6{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+    .Animate7{width: 100%; height: 110%;flex-direction: row;justify-content: space-around;}
+    .Animate7 img{width: 60%;height: 80%;top: 15%;}
+    .C7{padding: 17px; font-size: 22px;font-weight: 15px; width: 84%; margin-left: 1%;}
+}
+
+
+.Main-block{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.title-bar{
+    
+    /*background-image: linear-gradient(to bottom right,rgb(223, 105, 127),rgb(8, 8, 20));
+    */
+    background-color: black;
+    display: flex;
+    
+    border-radius: 20px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    color: rgb(220, 233, 219);
+}
+
+.logo button{
+    border-radius: 50%;
+    color: rgb(31, 58, 5);
+    
+    font-family: 'Times New Roman', Times, serif;
+   
+    cursor: pointer;
+    animation: logo_rotate 5s ease-in-out infinite;
+}
+
+@keyframes logo_rotate{
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.main{
+    position: absolute;
+   
+    border-radius: 20px;
+    background-image: linear-gradient(to top left,rgb(64, 79, 214),rgb(212, 51, 51)) ;
+}
+
+.start_button{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CompName{
+     visibility: hidden;
+     border-radius: 5px;
+     background-image: linear-gradient(to right, rgb(204, 221, 51),rgb(10, 248, 228)) ;
+}
+
+@keyframes an1{
+    0%{    opacity: 0; visibility: visible;}
+    50%{ opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+.start_button button{
+    background-image: linear-gradient(rgb(202, 177, 34),rgb(67, 226, 67));
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.backbt{
+    visibility: hidden;
+}
+
+.FirstComp{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    visibility: visible;
+}
+
+.FirstCompimg{
+    border: 3px solid black;
+    border-radius: 20px;
+    animation-delay: 4s;
+    visibility: hidden;
+}
+
+@keyframes an4{
+    0%{    opacity: 0; visibility: visible;}
+    50%{ opacity: 0.5;}
+    100%{opacity: 1; }
+}
+
+.C1blockside1, .C1blockside2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.C1T1{
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom left, rgb(241, 175, 175),rgb(234, 250, 12));
+    border-radius: 20px;
+   
+    overflow: hidden;
+   
+    animation-delay: 8s;
+    visibility: hidden;
+}
+
+@keyframes an2{
+    0%{    opacity: 0; visibility: visible;}
+    50%{ opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+.C1T2{
+    border: 2px solid black;  
+    background-image: linear-gradient(to bottom left, rgb(3, 232, 248),rgb(235, 202, 229));
+    border-radius: 20px;
+    overflow: hidden;
+    animation-delay: 11s;
+    visibility: hidden;
+}
+
+@keyframes an3{
+    0%{    opacity: 0; visibility: visible;}
+    50%{ opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+.SecondComp{
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.Block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+    visibility: hidden;
+    margin-top: 2%;
+}
+
+.Block img{
+    width: 95%;
+    height: 85%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+@keyframes imgB{
+    0%{ visibility: visible; opacity: 0;}
+    50%{ opacity: 0.5;}
+    100%{ opacity: 1;}
+}
+
+.Block h2{
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+    visibility: hidden;
+    margin-top: 2%;
+}
+
+.Block2 img{
+    width: 95%;
+    height: 85%;
+    border: 2px solid rgb(34, 172, 15);
+    border-radius: 20px;
+}
+
+@keyframes imgB2{
+    0%{ visibility: visible; width: 18%; height: 0%; opacity: 0;}
+    50%{ width: 18%; height: 40%; opacity: 0.5;}
+    100%{ width: 18%; height: 80%; opacity: 1;}
+}
+
+.Block2 h2{
+    background-color: rgb(39, 192, 133);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.NewComp{
+    visibility: visible;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.FERWD{
+    visibility: hidden;
+    color: white;
+}
+
+@keyframes FERW{
+    0%{ opacity: 0; font-size: 70px; visibility: visible;}
+    50%{ opacity: 1; font-size: 50px;}
+    100%{ font-size: 30px;}
+}
+
+.img{
+    border: 2ps solid black;
+    border-radius: 20px;
+}
+
+.Animate{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C1{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+@keyframes an01{
+    0%{ opacity: 0; visibility: visible; size: 100%;}
+    50%{ opacity: 0.5; size: 0%;}
+    100%{ opacity: 1;}
+}
+
+@keyframes border{
+    0%{opacity: 0; visibility: visible;  }
+    100%{ opacity: 1;}
+}
+
+.arrows{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.ar1{
+     position: absolute;
+     top: 80%;
+     left: 8%;
+     visibility: hidden;
+}
+
+.ar2{
+    position: absolute;
+    top: 89%;
+    left: 17%;
+    visibility: hidden;
+}
+
+.ar3{
+    position: absolute;
+    top: 77%;
+    left: 24%;
+    visibility: hidden;
+}
+
+.ar4{
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    visibility: hidden;
+}
+
+.ar5{
+    position: absolute;
+    top: 27%;
+    left: 44%;
+    transform: rotate(270deg);
+    visibility: hidden;
+}
+
+.ar6{
+    position: absolute;
+    top: 75%;
+    left: 44%;
+    transform: rotate(90deg);
+    visibility: hidden;
+}
+
+.Animate2{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate2 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C2{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.FEFWD{
+    visibility: hidden;
+    color: white;
+}
+
+.Animate3{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate3 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C3{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.ar12{
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    visibility: hidden;
+}
+
+.ar22{
+   position: absolute;
+   top: 41%;
+   left: 43%;
+   transform: rotate(90deg);
+   visibility: hidden;
+}
+
+.ar32{
+   position: absolute;
+   top: 80%;
+   left: 13%;
+   transform: rotate(180deg);
+   visibility: hidden;
+}
+
+.ar42{
+   position: absolute;
+   top: 80%;
+   left: 42%;
+   visibility: hidden;
+}
+
+
+.Animate4{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate4 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C4{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.ar13{
+    position: absolute;
+    top: 93%;
+    left: 21%;
+    visibility: hidden;
+}
+
+.ar23{
+   position: absolute;
+   top: 60%;
+   left: 39%;
+   transform: rotate(270deg);
+   visibility: hidden;
+}
+
+.ar33{
+   position: absolute;
+   top: 86%;
+   left: 16%;
+   visibility: hidden;
+}
+
+.ar43{
+   position: absolute;
+   top: 89%;
+   left: 27%;
+   visibility: hidden;
+}
+
+.ar53{
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    transform: rotate(180deg);
+    visibility: hidden;
+ }
+
+ .ar63{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    visibility: hidden;
+ }
+
+ .ar73{
+    position: absolute;
+    top: 21%;
+    left: 11%;
+    transform: rotate(270deg);
+    visibility: hidden;
+ }
+
+ .ar83{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: rotate(270deg);
+    visibility: hidden;
+ }
+
+ .ar93{
+    position: absolute;
+    top: 84%;
+    left: 11%;
+    transform: rotate(90deg);
+    visibility: hidden;
+ }
+
+ .ar99{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: rotate(90deg);
+    visibility: hidden;
+ }
+
+.arrows1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Animate5{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate5 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C5{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.Animate6{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate6 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C6{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.Animate7{
+    position: absolute;
+    visibility: hidden;
+    top: -5%;
+    left: 0.5%;
+    display: flex;
+}
+
+.Animate7 img{
+    border: 2ps solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.C7{
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
