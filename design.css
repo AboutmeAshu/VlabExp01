@@ -1,6 +1,6 @@
 @media only screen and (max-width:420px){
     .title-bar{ flex-direction:column;font-size:10px;height:18vh;width:100%;}
-    .main{ top:21%;width:96%; height:197%; overflow:hidden; }
+    .main{ top:21%;width:96%; height:202%; overflow:hidden; }
     .logo button{font-size:23px;position:absolute;left:38%;padding: 6px;}
     .CompName{padding:5px;font-size:15px;width:46%;}
     .start_button{flex-direction:row;height:9vh;margin-left:5px;margin-right:20px;}
