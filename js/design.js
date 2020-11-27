@@ -327,8 +327,9 @@ async function display(){
         inable();   
     }
 
-    else if(count==11){
+    else{
         window.close();
+        count = 10;
     }
 
 }
