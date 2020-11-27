@@ -280,6 +280,7 @@ async function display(){
     else if(count==9){
         closeAll();
         disable();
+        element2.innerHTML = "NEXT";
         element.innerHTML = '&nbsp;Articulated Vehicles &nbsp;' ;
         await sleep(2000);
         element.style.visibility = 'visible' ;
