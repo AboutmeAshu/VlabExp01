@@ -119,7 +119,7 @@ async function display(){
         element8.style.animation = 'FERW 2s linear 1' ;
         await sleep(2000);
         element8.style.visibility = 'visible';
-        await sleep(4000);
+        await sleep(6000);
         element8.style.visibility = 'hidden';
         element9.style.animation = 'an01 2s linear 1';
         await sleep(2000);
@@ -185,7 +185,7 @@ async function display(){
         element27.style.animation = 'FERW 2s linear 1' ;
         await sleep(2000);
         element27.style.visibility = 'visible';
-        await sleep(4000);
+        await sleep(6000);
         element27.style.visibility = 'hidden';
         element28.style.animation = 'an01 2s linear 1';
         await sleep(2000);
@@ -323,8 +323,8 @@ async function display(){
         element47[2].style.animation = 'border 2s linear 1';
         element47[2].style.visibility = 'visible';
         await sleep(1000);
-        element2.innerHTML = 'FINISH' ;
-        element2.style.visibility = 'visible';   
+        element2.innerHTML = 'FINISHED' ;
+        inable();   
     }
 
     else if(count==11){
