@@ -1,6 +1,6 @@
 @media only screen and (max-width:420px){
     .title-bar{ flex-direction:column;font-size:10px;height:18vh;width:100%;}
-    .main{ top:21%;width:98%; height:193%; overflow:hidden; }
+    .main{ top:21%;width:96%; height:197%; overflow:hidden; }
     .logo button{font-size:23px;position:absolute;left:38%;padding: 6px;}
     .CompName{padding:5px;font-size:15px;width:46%;}
     .start_button{flex-direction:row;height:9vh;margin-left:5px;margin-right:20px;}
@@ -11,6 +11,7 @@
     .C1T1 p{font-size:20px;}
    .C1T2{padding: 5px; width: 80%; margin-left: 25px; margin-top: 15px;}
    .C1T2 p{font-size:20px;}
+    .C1blockside1{margin-top: 35px;}
    
    .SecondComp{ flex-direction:column; top:8%;}
    .Block{ width:60%; margin-left:60px; height:50%;}
@@ -35,7 +36,7 @@
    .arrows1 img{ width: 0%; height: 0%;}
    .Animate5{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
    .Animate5 img{width:90%; height:35%;margin-left:15px; top:6%}
-   .C5{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;margin-top:20px;
+    .C5{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;margin-top:20px; }
    .Animate6{width:100%; height:70%; flex-direction:column;justify-content: space-around;}
    .Animate6 img{width:90%; height:35%;margin-left:15px; top:6%}
    .C6{padding:10px;font-size:15px; font-weight:5px; width:80%; margin-left:6%;margin-top:20px;}
@@ -54,7 +55,7 @@
     .start_button{flex-direction: row;}
     .start_button button{font-size: 15px;}
     .FirstComp{flex-direction: row;justify-content: space-around;}
-    .FirstCompimg{ width:40%; margin-top: 3%;margin-right: 5%;}
+    .FirstCompimg{ width:37%; margin-top: 3%;margin-right: 5%;}
     .C1T1{ padding: 30px; font-size: 25px;font-weight: 15px; width: 80%; margin-left: 3%;}
     .C1T2{ padding: 30px; font-size: 25px;font-weight: 15px; width: 80%; margin-left: 3%;}
     .SecondComp{flex-direction:row;top: 22%;height: 70%;}
